@@ -3,7 +3,7 @@
 React native app utilising the Neds API, technical task for Entain by Liam Di Dato.
 
 ### Setup
-- Run `yarn install`
+- Run `yarn`
 - Run `yarn start`
 - In a seperate terminal/cmd, run `yarn android` or `yarn ios`
 
