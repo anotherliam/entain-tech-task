@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot in the future 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "borderLeftWidth": 2,
+        "borderRadius": 4,
+        "elevation": 2,
+        "marginVertical": 8,
+        "padding": 8,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.41,
+      },
+      Object {
+        "borderLeftColor": "#8e24aa",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    test-meeting-name
+    , Race Number 
+    1
+  </Text>
+  <Text>
+    Starts in 66:40
+  </Text>
+  <Text>
+    Horse Racing
+  </Text>
+</View>
+`;
+
+exports[`matches snapshot in the past 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "borderLeftWidth": 2,
+        "borderRadius": 4,
+        "elevation": 2,
+        "marginVertical": 8,
+        "padding": 8,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.41,
+      },
+      Object {
+        "borderLeftColor": "#2e7d32",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    test-meeting-name
+    , Race Number 
+    1
+  </Text>
+  <Text>
+    Race has started!
+  </Text>
+  <Text>
+    Horse Racing
+  </Text>
+</View>
+`;
