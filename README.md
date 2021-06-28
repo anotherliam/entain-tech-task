@@ -1,5 +1,7 @@
 # entain-tech-task
 
+React native app utilising the Neds API, technical task for Entain by Liam Di Dato.
+
 ### Setup
 - Run `yarn install`
 - Run `yarn start`
