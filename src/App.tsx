@@ -13,7 +13,7 @@ import { Picker } from '@react-native-picker/picker';
 import { colors, fetchDebounce, racingEndpoint, timeUntilRemove } from './constants';
 import { categoryIds, categoryIdToName } from './categories';
 import { RaceSummary } from './types';
-import RaceCard from './RaceCard';
+import RaceCard from './components/RaceCard';
 import unionBy from 'lodash/unionBy';
 
 type APIResponse = {

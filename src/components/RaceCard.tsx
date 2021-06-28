@@ -1,8 +1,8 @@
 import { StyleSheet, View, Text } from 'react-native';
 import React from 'react';
-import { RaceSummary } from './types';
-import { categoryIdToName } from './categories';
-import { colors } from './constants';
+import { RaceSummary } from '../types';
+import { categoryIdToName } from '../categories';
+import { colors } from '../constants';
 
 type Props = {
   race: RaceSummary;
